@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/swiper-bundle.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="container">
+        <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between text-medium">
+            <ul class="nav col-12 col-md-auto justify-content-center order-2 order-md-1">
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Category <span class="icon icon-chevron-down"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Most</a></li>
+                        <li><a class="dropdown-item" href="#">Popular</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link ">Service</a></li>
+                <li class="nav-item"><a href="#" class="nav-link ">About Us</a></li>
+            </ul>
+
+            <div class="d-flex gap-2 align-items-center justify-content-center col-12 col-md-auto order-1 order-md-2">
+                <div class="header-logo">
+                    <img src="./asset/img/resto-logo.png" alt="Resto Logo" srcset="">
+                </div>
+                <h1 class="header-title">Resto</h1>
+            </div>            
+
+            <form class="d-flex gap-3 col-12 col-md-auto order-3" role="search">
+                <div class="input-group input-search bg-white align-items-center">
+                    <span class="icon icon-search"></span>
+                    <input type="search" class="form-control" placeholder="Search your favorite food" aria-label="Search">
+                </div>
+                <button class="btn btn-main px-4 py-3 text-semibold" >
+                    Login
+                </button>
+            </form>
+        </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- hero -->
+    <div class="swiper hero">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="hero-img">
+                    <img src="./asset/img/hero-1.jpg" alt="">
+                </div>
+                <div class="hero-detail bg-white p-4 card">
+                    <div class="d-flex gap-1">
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <p class="fs-5 text-gray mb-1"><span class="text-yellow text-semibold">5.0</span> (5.2K+)</p>
+                    </div>
+                    <p class="fs-4 text-semibold mb-1">Padang Restaurant</p>
+                    <p class="fs-5 text-gray text-semibold mb-1">IDR 49.999 - IDR 560.000</p>
+                    <div class="d-flex gap-1">
+                        <span class="icon icon-location"></span>
+                        <p class="text-gray mb-1">Padang, Indonesia</p>
+                    </div>
+                    <div class="btn btn-cta mt-4 mb-3 px-4 py-3 d-inline-flex">
+                        <p class="text-semibold mb-0">Make Reservation</p>
+                        <span class="icon icon-chevron-right"></span>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <span class="icon icon-info"></span>
+                        <p class="text-gray mb-0">No extra cost</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="hero-img">
+                    <img src="./asset/img/hero-2.jpg" alt="">
+                </div>
+                <div class="hero-detail bg-white p-4 card">
+                    <div class="d-flex gap-1">
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <p class="fs-5 text-gray mb-1"><span class="text-yellow fw-semibold">5.0</span> (5.2K+)</p>
+                    </div>
+                    <p class="fs-4 text-semibold mb-1">Padang Restaurant</p>
+                    <p class="fs-5 text-gray text-semibold mb-1">IDR 49.999 - IDR 560.000</p>
+                    <div class="d-flex gap-1">
+                        <span class="icon icon-location"></span>
+                        <p class="text-gray mb-1">Padang, Indonesia</p>
+                    </div>
+                    <div class="btn btn-cta mt-4 mb-3 px-4 py-3 d-inline-flex">
+                        <p class="text-semibold mb-0">Make Reservation</p>
+                        <span class="icon icon-chevron-right"></span>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <span class="icon icon-info"></span>
+                        <p class="text-gray mb-0">No extra cost</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of hero -->
+
+    <main class="container">
+        <section class="benefit text-center">
+            <div class="col-12">
+                <p class="text-uppercase text-semibold text-purple mb-1">Special benefit for you</p>
+                <p class="fs-3 text-semibold">Why Should Choose Us?</p>
+            </div>
+            <div class="row justify-content-between mt-5">
+                <div class="col-6 col-md-3 ">
+                    <div class="bg-white benefit-card pt-4">
+                        <div class="card-img d-flex align-items-center justify-content-center mx-auto">
+                            <img src="./asset/img/icon-discount.png" alt="extra discount">
+                        </div>
+                        <p class="fs-5 text-semibold mt-4">Extra Discounts</p>
+                        <p class="px-4 benefit-desc">
+                            Get your special discount by using our reservation
+                        </p>
+                        <div class="benefit-btn p-4 mt-4 d-inline-flex w-100 justify-content-center">
+                            <p class="text-semibold mb-0">View Details</p>
+                            <span class="icon icon-chevron-right"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="bg-white benefit-card pt-4">
+                        <div class="card-img d-flex align-items-center justify-content-center mx-auto">
+                            <img src="./asset/img/icon-eat.png" alt="Come and Eat">
+                        </div>
+                        <p class="fs-5 text-semibold mt-4">Come and Eat</p>
+                        <p class="px-4 benefit-desc">
+                            Get your own table quickly & without waiting in line
+                        </p>
+                        <div class="benefit-btn p-4 mt-4 d-inline-flex w-100 justify-content-center">
+                            <p class="text-semibold mb-0">View Details</p>
+                            <span class="icon icon-chevron-right"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="bg-white benefit-card pt-4">
+                        <div class="card-img d-flex align-items-center justify-content-center mx-auto">
+                            <img src="./asset/img/icon-fee.png" alt="No Extra Fee">
+                        </div>
+                        <p class="fs-5 text-semibold mt-4">No Extra Fee</p>
+                        <p class="px-4 benefit-desc">
+                            Get tax free if you want to order food and make a reservation
+                        </p>
+                        <div class="benefit-btn p-4 mt-4 d-inline-flex w-100 justify-content-center">
+                            <p class="text-semibold mb-0">View Details</p>
+                            <span class="icon icon-chevron-right"></span>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-6 col-md-3 ">
+                    <div class="bg-white benefit-card pt-4">
+                        <div class="card-img d-flex align-items-center justify-content-center mx-auto">
+                            <img src="./asset/img/icon-quarantee.png" alt="come and eat">
+                        </div>
+                        <p class="fs-5 text-semibold mt-4">Guaranteed Cleanliness</p>
+                        <p class="px-4 benefit-desc">
+                            We ensure the cleanliness of the place as well as the food
+                        </p>
+                        <div class="benefit-btn p-4 mt-4 d-inline-flex w-100 justify-content-center">
+                            <p class="text-semibold mb-0">View Details</p>
+                            <span class="icon icon-chevron-right"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="most">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 col-xxl-4 py-5">
+                    <p class="text-uppercase text-semibold text-purple mb-1">Top 3 Featured Restaurant</p>
+                    <p class="fs-3 text-semibold">Most Popular Restaurants</p>
+                    <p class="text-gray">
+                        The best restaurant in our opinion is how much customers like it in terms of place, price, comfort and of course the taste of the food itself.
+                    </p>
+                    <div class="btn btn-cta mt-4 mb-3 px-4 py-3 d-inline-flex">
+                        <p class="text-semibold mb-0">View All Restaurant</p>
+                        <span class="icon icon-chevron-right"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-9 col-xxl-8">
+                    <div class="d-flex gap-3">
+                        <div class="h-100 p-4 position-relative most-card active">
+                            <div class="most-card-detail bg-white p-4 mb-4 position-absolute bottom-0">
+                                <div class="d-flex gap-1">
+                                    <span class="icon icon-star"></span>
+                                    <p class="fs-5 text-gray mb-1"><span class="text-yellow fw-semibold">5</span> (7.6K+)</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fs-5 text-semibold mb-1">Bind Balorant</p>
+                                    <div class="d-flex justify-content-center align-items-center most-card-link">
+                                        <div class="span icon icon-arrow-right"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="icon icon-location"></span>
+                                    <p class="text-gray mb-0">Jakarta, Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-100 p-4 position-relative most-card">
+                            <div class="most-card-detail bg-white p-4 mb-4 position-absolute bottom-0">
+                                <div class="d-flex gap-1">
+                                    <span class="icon icon-star"></span>
+                                    <p class="fs-5 text-gray mb-1"><span class="text-yellow fw-semibold">5</span> (7.6K+)</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fs-5 text-semibold mb-1">Bind Balorant</p>
+                                    <div class="d-flex justify-content-center align-items-center most-card-link">
+                                        <div class="span icon icon-arrow-right"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="icon icon-location"></span>
+                                    <p class="text-gray mb-0">Jakarta, Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-100 p-4 position-relative most-card">
+                            <div class="most-card-detail bg-white p-4 mb-4 position-absolute bottom-0">
+                                <div class="d-flex gap-1">
+                                    <span class="icon icon-star"></span>
+                                    <p class="fs-5 text-gray mb-1"><span class="text-yellow fw-semibold">5</span> (7.6K+)</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fs-5 text-semibold mb-1">Bind Balorant</p>
+                                    <div class="d-flex justify-content-center align-items-center most-card-link">
+                                        <div class="span icon icon-arrow-right"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="icon icon-location"></span>
+                                    <p class="text-gray mb-0">Jakarta, Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="near">
+            <div class="row justify-content-between">
+                <div class="col-8">
+                    <p class="text-semibold text-purple text-uppercase mb-1">Restaurant Based By City</p>
+                    <p class="fs-3 text-semibold">Restaurant Near You</p>
+                </div>
+                <div class="col-3">
+                    <form class="d-flex px-4 align-items-center py-3 input-select">
+                        <span class="icon icon-location"></span>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Jakarta, Indonesia</option>
+                            <option value="1">Bali, Indonesia</option>
+                            <option value="2">Sydney, Australia</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="row gap-3 flex-wrap">
+                <div class="col p-4 position-relative near-card">
+                    <div class="position-absolute bottom-0 bg-white p-4 mb-4 card near-card-detail">
+                        <div class="d-flex gap-1">
+                            <span class="icon icon-star"></span>
+                            <p class=" text-gray mb-1"><span class="text-yellow fw-semibold">5</span> (6.6K+)</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="text-semibold mb-1">Batavia Restaurant</p>
+                            <div class="d-flex justify-content-center align-items-center most-card-link">
+                                <div class="span icon icon-arrow-right"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <p class="text-semibold text-gray mb-0">IDR 29.000 - IDR 259.999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-4 position-relative near-card">
+                    <div class="position-absolute bottom-0 bg-white p-4 mb-4 card near-card-detail">
+                        <div class="d-flex gap-1">
+                            <span class="icon icon-star"></span>
+                            <p class="text-gray mb-1"><span class="text-yellow fw-semibold">5</span> (3.6K+)</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="text-semibold mb-1">Split Ascent Restaurant</p>
+                            <div class="d-flex justify-content-center align-items-center most-card-link">
+                                <div class="span icon icon-arrow-right"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <p class="text-semibold text-gray mb-0">IDR 49.000 - IDR 560.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-4 position-relative near-card">
+                    <div class="position-absolute bottom-0 bg-white p-4 mb-4 card near-card-detail">
+                        <div class="d-flex gap-1">
+                            <span class="icon icon-star"></span>
+                            <p class="text-gray mb-1"><span class="text-yellow fw-semibold">5</span> (11+)</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="text-semibold mb-1">Daza Fracture Restaurant</p>
+                            <div class="d-flex justify-content-center align-items-center most-card-link">
+                                <div class="span icon icon-arrow-right"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <p class="text-semibold text-gray mb-0">IDR 29.000 - IDR 560.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <div class="btn btn-cta mt-5 px-4 py-3 d-inline-flex">
+                        <p class="text-semibold mb-0">View All Restaurant</p>
+                        <span class="icon icon-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chef">
+            <div class="row gap-5 flex-wrap">
+                <div class="col-12 col-md-6 px-5 position-relative">
+                    <div class="chef-img">
+                        <img src="./asset/img/chef.jpg" alt="" srcset="">
+                    </div>
+                    <div class="position-absolute top-0 end-0 mt-4 bg-white p-4 text-center card chef-popup">
+                        <div class="card-img d-flex align-items-center justify-content-center mx-3">
+                            <img src="./asset/img/icon-expert.png" alt="extra discount">
+                        </div>
+                        <p class="fs-5 text-semibold mt-3 mb-0">12 Years</p>
+                        <p class="text-gray mb-0">Experience</p>
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 mb-4 bg-white p-4 d-flex flex-row gap-3 card">
+                        <div class="">
+                            <img src="./asset/img/chef-resto.jpg" alt="extra discount">
+                        </div>
+                        <div class="py-3">
+                            <p class="text-gray mb-0">Chef at restaurant</p>
+                            <p class="fs-5 text-semibold">Pearl Dolphin</p>
+                            <a href="#" class="d-flex mt-3 text-semibold text-yellow text-decoration-none">View Details <span class="icon icon-chevron-yellow"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <p class="text-semibold text-purple text-uppercase mb-1">Top 4 Expert Chefs</p>
+                    <p class="fs-3 text-semibold mb-3">Expert Chefs in Fuddy</p>
+                    <div class="chef-card p-4">
+                        <p class="text-uppercase text-medium text-gray mb-1">Pizza</p>
+                        <div class="d-flex justify-content-between">
+                            <p class="fs-5 text-semibold mb-2">Phoenix Satcheup</p>
+                            <a href="#" class="d-flex text-medium">Profile Details <span class="icon icon-chevron-yellow"></span></a>
+                        </div>
+                        <div class="d-flex">
+                            <span class="icon icon-location"></span>
+                            <p class="text-gray mb-0">Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="chef-card p-4 mt-4">
+                        <p class="text-uppercase text-medium text-gray mb-1">Vegan</p>
+                        <div class="d-flex justify-content-between">
+                            <p class="fs-5 text-semibold mb-2">Chamber Botfrag</p>
+                            <a href="#" class="d-flex text-medium">Profile Details <span class="icon icon-chevron-yellow"></span></a>
+                        </div>
+                        <div class="d-flex">
+                            <span class="icon icon-location"></span>
+                            <p class="text-gray mb-0">Bandung, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="chef-card p-4 mt-4">
+                        <p class="text-uppercase text-medium text-gray mb-1">Roast Chicken</p>
+                        <div class="d-flex justify-content-between">
+                            <p class="fs-5 text-semibold mb-2">Asep Vandal</p>
+                            <a href="#" class="d-flex text-medium">Profile Details <span class="icon icon-chevron-yellow"></span></a>
+                        </div>
+                        <div class="d-flex">
+                            <span class="icon icon-location"></span>
+                            <p class="text-gray mb-0">Sunda, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="chef-card p-4 mt-4">
+                        <p class="text-uppercase text-medium text-gray mb-1">Beef Steak</p>
+                        <div class="d-flex justify-content-between">
+                            <p class="fs-5 text-semibold mb-2">I Made Invoker</p>
+                            <a href="#" class="d-flex text-medium">Profile Details <span class="icon icon-chevron-yellow"></span></a>
+                        </div>
+                        <div class="d-flex">
+                            <span class="icon icon-location"></span>
+                            <p class="text-gray mb-0">Bali, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="btn btn-cta mt-5 px-4 py-3 d-inline-flex">
+                        <p class="text-semibold mb-0">View All Chef</p>
+                        <span class="icon icon-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/swiper-bundle.min.js"></script>
+    <script>
+        const dropdownElementList = document.querySelectorAll('.dropdown-toggle')
+
+        let swiper = new Swiper(".hero", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        const accordions = document.querySelectorAll('.most-card');
+
+        const openAccordion = (accordion) => {
+            const detail = accordion.querySelector('.most-card-detail');
+
+            accordion.classList.add('active');
+        }
+
+        const closeAccordion = (accordion) => {
+            const detail = accordion.querySelector('.most-card-detail');
+            accordion.classList.remove('active');
+        }
+
+        accordions.forEach((accordion) => {
+            const detail = accordion.querySelector('.most-card-detail');
+            accordion.onclick = () => {
+                if (detail.style.maxWidth) {
+                    closeAccordion(accordion);
+                } else {
+                    accordions.forEach((accordion) => closeAccordion(accordion));
+                    openAccordion(accordion);
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
